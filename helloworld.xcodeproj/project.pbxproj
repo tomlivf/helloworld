@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA566522394D31A002D0467 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BECFD5112379258C004009F9 /* GoogleService-Info.plist */; };
 		BECFD4DE23792535004009F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFD4DD23792535004009F9 /* AppDelegate.swift */; };
 		BECFD4E023792535004009F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFD4DF23792535004009F9 /* SceneDelegate.swift */; };
 		BECFD4E223792535004009F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFD4E123792535004009F9 /* ContentView.swift */; };
@@ -15,9 +16,6 @@
 		BECFD4EA23792537004009F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECFD4E823792537004009F9 /* LaunchScreen.storyboard */; };
 		BECFD4F523792537004009F9 /* helloworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFD4F423792537004009F9 /* helloworldTests.swift */; };
 		BECFD50023792537004009F9 /* helloworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFD4FF23792537004009F9 /* helloworldUITests.swift */; };
-		BECFD50E23792582004009F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BECFD50D23792582004009F9 /* GoogleService-Info.plist */; };
-		BECFD50F23792582004009F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BECFD50D23792582004009F9 /* GoogleService-Info.plist */; };
-		BECFD51023792582004009F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BECFD50D23792582004009F9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +50,6 @@
 		BECFD4FB23792537004009F9 /* helloworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECFD4FF23792537004009F9 /* helloworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldUITests.swift; sourceTree = "<group>"; };
 		BECFD50123792537004009F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BECFD50D23792582004009F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BECFD5112379258C004009F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +81,6 @@
 		BECFD4D123792535004009F9 = {
 			isa = PBXGroup;
 			children = (
-				BECFD50D23792582004009F9 /* GoogleService-Info.plist */,
 				BECFD4DC23792535004009F9 /* helloworld */,
 				BECFD4F323792537004009F9 /* helloworldTests */,
 				BECFD4FE23792537004009F9 /* helloworldUITests */,
@@ -247,8 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA566522394D31A002D0467 /* GoogleService-Info.plist in Resources */,
 				BECFD4EA23792537004009F9 /* LaunchScreen.storyboard in Resources */,
-				BECFD50E23792582004009F9 /* GoogleService-Info.plist in Resources */,
 				BECFD4E723792537004009F9 /* Preview Assets.xcassets in Resources */,
 				BECFD4E423792537004009F9 /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BECFD50F23792582004009F9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BECFD51023792582004009F9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "helloworld/Preview\\ Content ../../../../Downloads/GoogleService-Info.plist";
+				DEVELOPMENT_TEAM = 2Q6CGTWUHH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = helloworld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "helloworld/Preview\\ Content ../../../../Downloads/GoogleService-Info.plist";
+				DEVELOPMENT_TEAM = 2Q6CGTWUHH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = helloworld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
