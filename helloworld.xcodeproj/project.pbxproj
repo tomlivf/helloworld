@@ -445,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"helloworld/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "helloworld/Preview\\ Content ../../../../Downloads/GoogleService-Info.plist";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = helloworld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,7 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"helloworld/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "helloworld/Preview\\ Content ../../../../Downloads/GoogleService-Info.plist";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = helloworld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
